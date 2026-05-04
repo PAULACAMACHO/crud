@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: linear-gradient(to right, rgba(242, 242, 242), rgba(242, 242, 252));
+}
+
+.container {
+	display: flex;
+	width: 50%;
+	margin: auto;
+	padding-top: 5%;
+}
+
+.row {
+	width: 50%;
+	margin: 10% auto;
+}
+
+input, form {
+	margin: 3%;
+}
+
+p, h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+h1 {
+	width: 50%;
+	font-size: 2em;
+	text-align: center;
+}
+
